@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes Toolkit</title>
+
+```
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+```
+
+</head>
+<body>
+    <header>
+        <h1>Notes Toolkit</h1>
+        <p>Write your notes and keep track of your characters and words.</p>
+    </header>
+
+```
+<main>
+    <section class="notes-card">
+        <h2>Your Note</h2>
+
+        <label for="note-text">Write your note below:</label>
+
+        <textarea
+            id="note-text"
+            placeholder="Start typing your note..."
+            rows="8"
+        ></textarea>
+
+        <div class="counters">
+            <p id="char-count">0 / 200 characters</p>
+            <p id="word-count">0 words</p>
+        </div>
+
+        <div class="actions">
+            <button type="button" id="clear-btn">Clear</button>
+            <button type="button" id="theme-toggle">Dark mode</button>
+        </div>
+
+        <p class="help-text">
+            Press Escape inside the text area to clear your note.
+        </p>
+    </section>
+</main>
+
+
+```
+
+</body>
+</html>
