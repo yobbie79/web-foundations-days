@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Web dev days</title>
+
+    <script src="users.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Working with APIs</h1>
+        <p>Fetch and explore user data from an external API.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Users</h2>
+
+            <button id="load-users" type="button">Load Users</button>
+
+            <div>
+                <label for="filter-input">Filter users by name:</label>
+                <input
+                    type="text"
+                    id="filter-input"
+                    placeholder="Enter a name..."
+                >
+            </div>
+
+            <p id="status" role="status">
+                Click "Load Users" to retrieve users.
+            </p>
+
+            <ul id="users-list"></ul>
+        </section>
+    </main>
+</body>
+</html>
