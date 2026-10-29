@@ -1,0 +1,7 @@
+MY REFLECTION
+
+One of the most difficult concepts I encountered during this course was system design, especially understanding how an application can continue working when the number of users increases. At first, it was easy to think about the features an application needs, but harder to understand how databases, servers, caching, and load balancing work together. I improved my understanding by breaking the design into smaller steps: identifying requirements, estimating traffic, designing the API, modelling the data, and then choosing the architecture. Working through QuickNotes also helped me connect these ideas to a practical project.
+
+For my capstone, I would improve the way I demonstrate the system's behaviour during a live presentation. I would show the browser's Network tab when creating or deleting a note so that the audience could see the API requests and responses instead of only seeing the result on the page. I would also make sure the error-handling demonstration is clear and that the interface works well on a phone. These improvements would make the demonstration more convincing and help explain how the frontend communicates with the backend.
+
+Next, I want to learn how to build a real backend using Node.js and Express and connect it to PostgreSQL. I would like to replace practice API behaviour with persistent data, add user authentication, and test the application properly. This would help me move from designing systems on paper to building and deploying a complete application.
